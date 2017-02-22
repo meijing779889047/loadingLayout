@@ -7,7 +7,7 @@ import com.weavey.loading.lib.LoadingLayout;
 
 /**
  * Created by weavey
- * on 2016-11-23.
+ * on 2016-11-23.  µÚÒ»´Î¸üĞÂ
  * todo
  */
 
@@ -16,21 +16,22 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
+       //ÔÚapplicationÖĞ³õÊ¼»¯ÊÓÍ¼
         LoadingLayout.getConfig()
-                .setErrorText("å‡ºé”™å•¦~~è¯·ç¨åé‡è¯•ï¼")
-                .setEmptyText("æš‚æ— æ•°æ®")
-                .setNoNetworkText("æ— ç½‘ç»œè¿æ¥ï¼Œè¯·æ£€æŸ¥æ‚¨çš„ç½‘ç»œÂ·Â·Â·")
+                .setErrorText("³ö´íÀ²~~ÇëÉÔºóÖØÊÔ£¡")
+                .setEmptyText("ÔİÎŞÊı¾İ")
+                .setNoNetworkText("ÎŞÍøÂçÁ¬½Ó£¬Çë¼ì²éÄúµÄÍøÂç¡¤¡¤¡¤")
                 .setErrorImage(R.mipmap.define_error)
                 .setEmptyImage(R.mipmap.define_empty)
                 .setNoNetworkImage(R.mipmap.define_nonetwork)
                 .setAllTipTextColor(R.color.gray)
                 .setAllTipTextSize(14)
-                .setReloadButtonText("ç‚¹å‡»é‡è¯•")
+                .setReloadButtonText("µã»÷ÖØÊÔ")
                 .setReloadButtonTextSize(14)
                 .setReloadButtonTextColor(R.color.gray)
                 .setReloadButtonWidthAndHeight(150,40)
                 .setAllPageBackgroundColor(R.color.background)
                 .setLoadingPageLayout(R.layout.define_loading_page);
+        
     }
 }
